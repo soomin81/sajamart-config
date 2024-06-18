@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: sajamart-config
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config
+
+server:
+  port: 9001
+
+encrypt:
+  key: 8df5e3ec-d77a-4dbe-84a3-2d0d969d7258
